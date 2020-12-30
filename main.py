@@ -16,7 +16,7 @@ channel_name = os.getenv("CHANNEL_NAME")
 
 current_dir = pathlib.Path.cwd()
 
-directory = str(current_dir) + "\data"
+directory = str(current_dir) + "\data\\"
 
 api_id = os.getenv("API_ID")
 # your api_id
