@@ -28,7 +28,7 @@ client.start()
 
 while True:
 
-    msgs = client.get_messages(channel_name, limit=ss)
+    msgs = client.get_messages(channel_name, limit=int(ss))
     for msg in msgs:
         if msg.media is not None:
             client.download_media(message=msg, file=directory)
