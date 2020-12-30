@@ -32,6 +32,7 @@ while True:
     for msg in msgs:
         if msg.media is not None:
             client.download_media(message=msg, file=directory)
+            print("Song Loading")
 
     time.sleep(3)
     n = n + 1
